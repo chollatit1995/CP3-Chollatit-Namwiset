@@ -1,11 +1,7 @@
 calOne = int(input("Calcurator One : "))
 calTwo = int(input("Calcurator Two : "))
-Sum1 = calOne + calTwo
-Sum2 = calOne - calTwo
-Sum3 = calOne * calTwo
-Sum4 = calOne / calTwo
-# total = Sum1,Sum2,Sum3,Sum4
-print(calOne, "+", calTwo, "=", Sum1)
-print(calOne, "-", calTwo, "=", Sum2)
-print(calOne, "*", calTwo, "=", Sum3)
-print(calOne, "/", calTwo, "=", Sum4)
+
+print(calOne, "+", calTwo, "=", calOne + calTwo)
+print(calOne, "-", calTwo, "=", calOne - calTwo)
+print(calOne, "*", calTwo, "=", calOne * calTwo)
+print(calOne, "/", calTwo, "=", calOne / calTwo)
