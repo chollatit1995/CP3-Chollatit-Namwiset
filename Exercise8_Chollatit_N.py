@@ -36,7 +36,7 @@ if username == "admin" and password == "123":
     elif userSelected == 2:
         print("Promotion Sell 50%")
         amount = int(input("How much do you want :"))
-        # print("---------------------")
+        print("---------------------")
         price = 5
         totalAmount = (amount * price)/2
         vat = 7
@@ -48,6 +48,7 @@ if username == "admin" and password == "123":
     elif userSelected == 3:
         print("Promotion Reduced price 5 THB")
         amount = int(input("How much do you want :"))
+        print("---------------------")
         sell = 5
         price = 15 - sell
         totalAmount = amount * price
