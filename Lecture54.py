@@ -1,9 +1,3 @@
-# number = int(input("Key Number : "))
-# area = number
-# for i in range(number):
-#     print(((area)*" ")+((2*(i+1)-1)*"*"))
-#     area = area - 1
-
 def login():
     username = input("username :")
     password = input("password :")
@@ -24,7 +18,7 @@ def vatCalculate(totalPrice):
     return result
 def priceCalculate():
     price1 = int(input("First Product Price : "))
-    price2 = int(input("First Product Price : "))
+    price2 = int(input("Second Product Price : "))
     return vatCalculate(price1 + price2)
 
 def shop():
