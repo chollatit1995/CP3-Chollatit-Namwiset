@@ -1,5 +1,5 @@
+systemMenu = {"ไก่ทอด": 35, "เป็ดทอด": 45, "ปลาทอด": 55, "ผักทอด": 20}
 menuList = []
-
 def showBill():
     print("---- My Food----")
     total = 0
@@ -12,7 +12,6 @@ while True:
     if(menuName.lower() == "exit"):
         break
     else:
-        menuPrice = input("Price :")
-        menuList.append([menuName, menuPrice])
+        menuList.append([menuName, systemMenu[menuName]])
 
 showBill()
